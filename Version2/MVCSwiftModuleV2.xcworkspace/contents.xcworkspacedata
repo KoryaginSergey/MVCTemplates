@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Templates/MVC V2 Swift Module.xctemplate"
+      name = "MVC V2 Swift Module.xctemplate">
+      <Group
+         location = "group:___FILEBASENAME___"
+         name = "___FILEBASENAME___">
+         <FileRef
+            location = "group:___FILEBASENAME___ViewController.swift">
+         </FileRef>
+         <FileRef
+            location = "group:___FILEBASENAME___Builder.swift">
+         </FileRef>
+         <FileRef
+            location = "group:___FILEBASENAME___Model.swift">
+         </FileRef>
+         <Group
+            location = "group:View"
+            name = "View">
+            <FileRef
+               location = "group:___FILEBASENAME___View.swift">
+            </FileRef>
+            <FileRef
+               location = "group:___FILEBASENAME___View.xib">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:../../MVCViewControllerV2.swift">
+      </FileRef>
+      <FileRef
+         location = "group:TemplateIcon.png">
+      </FileRef>
+      <FileRef
+         location = "group:TemplateIcon@2x.png">
+      </FileRef>
+      <FileRef
+         location = "group:TemplateInfo.plist">
+      </FileRef>
+   </Group>
+</Workspace>

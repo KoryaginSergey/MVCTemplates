@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="___VARIABLE_moduleName___View">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3ZB-st-Jhr">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="3ZB-st-Jhr" secondAttribute="trailing" id="4p1-yZ-EzV"/>
+                <constraint firstItem="3ZB-st-Jhr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="RvH-K8-ASS"/>
+                <constraint firstItem="3ZB-st-Jhr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ueh-av-SxM"/>
+                <constraint firstAttribute="bottom" secondItem="3ZB-st-Jhr" secondAttribute="bottom" id="w7V-zu-J3I"/>
+            </constraints>
+            <connections>
+                <outlet property="tableView" destination="3ZB-st-Jhr" id="uE6-vK-d00"/>
+            </connections>
+            <point key="canvasLocation" x="463" y="401"/>
+        </view>
+    </objects>
+</document>

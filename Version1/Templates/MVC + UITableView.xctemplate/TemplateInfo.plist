@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>moduleName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Module name:</string>
+			<key>Description</key>
+			<string>The name of the file to create</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName:identifier___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.folder</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>MyModule</string>
+	<key>Description</key>
+	<string>This MVC Template provides all the boilerplate code needed for iOS MVC module with UITableView. Version 2.1</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>0</string>
+	<key>Summary</key>
+	<string>iOS MVC Template with UITableView</string>
+</dict>
+</plist>

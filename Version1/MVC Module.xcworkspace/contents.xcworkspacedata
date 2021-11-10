@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Templates/MVC Module.xctemplate"
+      name = "MVC Module.xctemplate">
+      <Group
+         location = "group:___FILEBASENAME___"
+         name = "___FILEBASENAME___">
+         <Group
+            location = "group:Controller"
+            name = "Controller">
+            <FileRef
+               location = "group:___FILEBASENAME___ViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:___FILEBASENAME___ViewController.m">
+            </FileRef>
+            <FileRef
+               location = "group:___FILEBASENAME___ViewController.xib">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:InputOutput"
+            name = "InputOutput">
+            <FileRef
+               location = "group:___FILEBASENAME___Builder.h">
+            </FileRef>
+            <FileRef
+               location = "group:___FILEBASENAME___Builder.m">
+            </FileRef>
+            <FileRef
+               location = "group:___FILEBASENAME___Router.h">
+            </FileRef>
+            <FileRef
+               location = "group:___FILEBASENAME___Router.m">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Model"
+            name = "Model">
+            <FileRef
+               location = "group:___FILEBASENAME___Model.h">
+            </FileRef>
+            <FileRef
+               location = "group:___FILEBASENAME___Model.m">
+            </FileRef>
+            <FileRef
+               location = "group:___FILEBASENAME___ModelProtocols.h">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:View"
+            name = "View">
+            <FileRef
+               location = "group:___FILEBASENAME___View.h">
+            </FileRef>
+            <FileRef
+               location = "group:___FILEBASENAME___View.m">
+            </FileRef>
+            <FileRef
+               location = "group:___FILEBASENAME___View.xib">
+            </FileRef>
+            <FileRef
+               location = "group:___FILEBASENAME___ViewProtocols.h">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:TemplateIcon.png">
+      </FileRef>
+      <FileRef
+         location = "group:TemplateIcon@2x.png">
+      </FileRef>
+      <FileRef
+         location = "group:TemplateInfo.plist">
+      </FileRef>
+      <FileRef
+         location = "group:../../MVCViewController.h">
+      </FileRef>
+      <FileRef
+         location = "group:../../MVCViewController.m">
+      </FileRef>
+   </Group>
+</Workspace>
